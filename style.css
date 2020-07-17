@@ -5,7 +5,7 @@
     }
     
     .figure {
-        /* position: relative; */
+        position: relative;
         width: 300%;
         animation: move 12s infinite;
         margin: 0%;
