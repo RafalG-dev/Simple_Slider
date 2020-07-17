@@ -1,0 +1,43 @@
+    .sectionSlider {
+        background-color: red;
+        overflow: hidden;
+        width: 70%;
+    }
+    
+    .figure {
+        /* position: relative; */
+        width: 300%;
+        animation: move 12s infinite;
+        margin: 0%;
+    }
+    
+    .header__h1 {
+        left: auto;
+        right: auto;
+    }
+    
+    .photo {
+        width: 33.3333%;
+        float: left;
+    }
+    
+    @keyframes move {
+        0% {
+            left: 0;
+        }
+        25% {
+            left: 0%;
+        }
+        33.3333% {
+            left: -100%;
+        }
+        58.3333% {
+            left: -100%;
+        }
+        66.6666% {
+            left: -200%;
+        }
+        91.6666% {
+            left: -200%;
+        }
+    }
